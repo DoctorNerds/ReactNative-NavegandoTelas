@@ -6,7 +6,17 @@ Essa é a aplicação do Fábio Mori após concluir o projeto do curso **Criando
 
 Neste projeto foi aplicado todo aprendizado para fazer telas de compra dos produtos educacionais da Escola Matriz, uma edtech para crianças, jovens e adultos se alfabetizarem tecnologicamente e ficarem por dentro do novo mercado de trabalho.
 
-**********COLOCAR PRINTS AQUI!!!!!**********
+<img src="https://user-images.githubusercontent.com/101336111/176431616-19852e88-c725-46cd-b97a-6e053ebd5ba9.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431656-d136fa97-e82e-424f-9c38-61f65ee13d2a.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431667-8c7d7e68-649a-4b49-829c-226ac17c1b52.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431675-10da7212-adb3-441d-822b-fd3f64e69ab1.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431682-77d7088f-2bbc-410e-a962-86f5466774b7.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431695-ff7fd85a-00a0-48ba-bc33-17162ad419bf.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431699-032a8184-cea9-4600-a522-dbcbae6a0d47.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431708-50b1fced-8c93-4e6a-a9f3-becf9239b0dd.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431717-5d4b950e-d7d8-440f-8cf5-d058f73bf730.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431738-3d14d3e0-025d-438d-a919-bf547bfaa035.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/101336111/176431751-6eabec98-4f1b-458f-bf12-1f4145a3c9f7.png" width="300" height="600">
 
 ## 🧑‍💻 Técnicas e Tecnologias
 
