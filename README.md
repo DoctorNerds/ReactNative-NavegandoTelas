@@ -47,9 +47,9 @@ npm run android
 ```
 
 ## 📲 O aprendizado do aluno Fábio Mori
-### Indrodução da história
+### Introdução da história
 
-A aplicação do conteúdo ensinado neste curso da [Alura](https://www.alura.com.br/) para o aplicativo da Escola Matriz foi a criação das telas onde os usuários poderão escolher os produtos educacionais e tornarem-se alunos através da realização da compra. Para as crianças a partir de 6 anos de idade que desejam ter sua primeira experiência com programação, podem adquirir o MatrizKIDS: a Linguagem do Futuro, onde vão aprender a criar jogos com Scratch e ter a mentalidade do programador. Para as crianças com pouco mais de experiência com programação, ou alunos recém formador da Linguagem do Futuro, podem adquirir também o MatrizKIDS: Scratch com Arduíno, onde vão ter sua primeira experiência com circuitos eletrônicos e aprenderão a aplicar seus algoritmos nas placas do Arduíno. Agora se o público são os jovens do ensino médio, o MatrizCast é o canal de comunicação que veio para conectar os jovens com o mercado de trabalho. Sendo um membro do MatrizCaster, o aluno poderá ter acesso a conteúdos e entrevistas exclusivas com diversos profissionais, além de poder interagir com eles mandando suas perguntas. Agora se o assunto é mentoria, um programa de 3 meses do MatrizCast Club vai preparar os jovens para o mercado de trabalho, ensinando conceitos fundamentais para a sua construção como profissional e também pessoal. Para os que tem a partir de 50 anos, temos duas opções de alfabetização digital, a primeira focada no dia a dia, ensinando como utilizar os principais aplicatrivos na internet, já a segunda opção, preparamos nossos alunos para utilziar ferramentas low code, que são a nova tendência do mercado de trabalho.
+A aplicação do conteúdo ensinado neste curso da [Alura](https://www.alura.com.br/) para o aplicativo da Escola Matriz foi a criação das telas onde os usuários poderão escolher os produtos educacionais e tornarem-se alunos através da realização da compra. Para as crianças a partir de 6 anos de idade que desejam ter sua primeira experiência com programação, podem adquirir o MatrizKIDS: a Linguagem do Futuro, onde vão aprender a criar jogos com Scratch e ter a mentalidade do programador. Para as crianças com pouco mais de experiência com programação, ou alunos recém formados da Linguagem do Futuro, podem adquirir também o MatrizKIDS: Scratch com Arduíno, onde vão ter sua primeira experiência com circuitos eletrônicos e aprenderão a aplicar seus algoritmos nas placas do Arduíno. Agora se o público são os jovens do ensino médio, o MatrizCast é o canal de comunicação que veio para conectar os jovens com o mercado de trabalho. Sendo um membro do MatrizCaster, o aluno poderá ter acesso a conteúdos e entrevistas exclusivas com diversos profissionais, além de poder interagir com eles mandando suas perguntas. Agora se o assunto é mentoria, um programa de 3 meses do MatrizCast Club vai preparar os jovens para o mercado de trabalho, ensinando conceitos fundamentais para a sua construção como profissional e também pessoal. Para os que tem a partir de 50 anos, temos duas opções de alfabetização digital, a primeira focada no dia a dia, ensinando como utilizar os principais aplicativos na internet, já a segunda opção, preparamos nossos alunos para utilizar ferramentas *low-code* e *no-code*, que são a nova tendência do mercado de trabalho.
 
 ### Tags e comandos React Native
 
@@ -58,7 +58,7 @@ Propriedades do Navigation para serem usados a partir de qualquer tipo de navega
 - ``navigation.reset()``: reinicia a navegação por completo, escolhendo ainda uma tela para iniciar uma nova navegação totalmente limpa.
 - ``navigation.goBack()``: fecha a tela atual e volta a tela anterior.
 - ``navigation.setParams()``: muda os parâmetros recebidos pela tela atual e não envia esses parâmetros para outras telas.
-- ``navigation.setOptions()``: para mudar as oções da tela como títulos gerados pela navegação.
+- ``navigation.setOptions()``: para mudar as opções da tela como títulos gerados pela navegação.
 
 Propriedades do Navigation para serem usados na navegação Stack (pilha):
 - Há dois tipos de navegação em pilha na biblioteca ``react-navigation``, o Native Stack e o Stack. Ambos têm os mesmos métodos de navegação, mas a diferença principal é que a Stack possibilita animações customizadas, pois é construída diretamente em Java Script, já a Native Stack utiliza navegação nativa do Android e do iOS, sendo mais performática, mas perdendo esta customização.
@@ -92,7 +92,7 @@ Propriedades Flex e relacionadas:
       - ``npx pod-install ios`` (se for iOS)
    - Instalando o ``react-native-svg`` com Expo:
       - ``expo install react-native-svg``
-   - Para adicionar o SVG diretamente importanto o arquivo (com ou sem Expo):
+   - Para adicionar o SVG diretamente importando o arquivo (com ou sem Expo):
       - ``npm instal --save-dev react-native-svg-transformer`` 
       - Além de incluir um código no arquivo ``metro.config.js`` (ver na documentação oficial)
 - Propriedades SVG:
@@ -103,18 +103,18 @@ Propriedades Flex e relacionadas:
     - Instalar a biblioteca: ``npm install --save react-native-vector-icons`` 
     - Para fazer as animações:
        - lottiefiles.com
-          - baixar as animações em arquivos .json e salvá-los na parta assets do projeto
+          - Fazer o download das animações em arquivos .json e salvá-los na parta assets do projeto
        - Instalar a biblioteca ``lottie-react-native``:
           ```
           npm i --save lottie-react-native
           npm i --save lottie-ios@3.2.3
           ```
-- Método de navegação ``reset``: quando usamos ele, toda a navegação da aplicação é reiniciada, como se a aplicação tivesse sido aberta novamente. Podemos passar parâmetros para esta tela incial.
-- Método de navegação ``popToPop``: podemos desempilhar todas as telas e voltar ao início da pilha, porém, não conseguimos passar parâmetros usando ele.
+- Método de navegação ``reset``: quando usamos ele, toda a navegação da aplicação é reiniciada, como se a aplicação tivesse sido aberta novamente. Podemos passar parâmetros para esta tela inicial.
+- Método de navegação ``popToPop``: podemos desempilhar todas as telas e voltar ao início da pilha, porém, não conseguimos passar parâmetros usando-o.
 - Método de navegação ``navigate``: em geral ele é o que mais usamos para navegar de uma tela para outra, mas quando usamos ele para uma tela que já existe na stack, ao invés de empilhar outra tela igual, o ``react-navigation`` reabre aquela tela específica. O efeito é semelhante ao ``pop`` ou ``popToTop``, entretanto, conseguimos passar parâmetros ao utilizar o ``navigate``.
 - Posicionando elementos com Flex: 
-   - O problema: cada dispositivo tem um tamanho de tela diferente e cada tela tem uma resolução diferente. Além disso, uma tela é medida em polegadas e a resolução de uma tela é medida em pixels (uma polegada não necessariamente tem um número fixo de pixels). Quanto escrevemos "tamanho" no código, utilizamos a unidade de medida pixel. Uma opção de solução para isso é utilizar unidades de medida em porcentagem.
-   - A melhor solução: o Flex é uma das ferramentas mais importantes para trabalhar com posicionamento de elemetos, semelhante ao ``Flexbox`` do CSS. Quando utilizamos ele em um componente, ele se transforma em um flex container. A propriedade Flex diz qual o tamanho proporcional que o componente vai ocipar. Por padrão, o valor é 0 (zero), ou seja, o componente só vai ocupar o espaço necessário para mostrar o conteúdo.
+   - O problema: cada dispositivo tem um tamanho de tela diferente e cada tela tem uma resolução diferente. Além disso, uma tela é medida em polegadas e a resolução de uma tela é medida em pixels (uma polegada não necessariamente tem um número fixo de pixels). Quando escrevemos "tamanho" no código, utilizamos a unidade de medida pixel. Uma opção de solução para isso é utilizar unidades de medida em porcentagem.
+   - A melhor solução: o Flex é uma das ferramentas mais importantes para trabalhar com posicionamento de elementos, semelhante ao ``Flexbox`` do CSS. Quando utilizamos ele em um componente, ele se transforma em um flex container. A propriedade Flex diz qual o tamanho proporcional que o componente vai ocupar. Por padrão, o valor é 0 (zero), ou seja, o componente só vai ocupar o espaço necessário para mostrar o conteúdo.
       - ``flex:1`` (ocupa todo o espaço)
       - ``flex:0`` (ocupa apenas o espaço necessário)
   
