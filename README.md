@@ -128,8 +128,3 @@ Agora, digite para iniciar o projeto:
 ```
 npm start
 ```
-Em seguida abra outro terminal no mesmo local e digite para conectar com o emulador:
-```
-npm run android
-```
-Lembrar de habilitar o Android Studio antes de rodar este terminal.
